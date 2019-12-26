@@ -1,0 +1,91 @@
+<html>
+	<head><meta charset="utf-8">
+		<title>ConnexionKitabi</title>
+		<link rel="stylesheet" title="Disabled for Preview-in-Browser: cnx.css">
+<style type="text/css">
+<!--
+
+body{
+	font-family : 'kristen itc';
+	color :teal;
+}
+h1{
+	text-align : center;
+}
+.principal{
+	width : 100px;
+	margin :80px 280px;
+	display : block;
+}
+input{
+	display : block;
+	width : 400px;
+	margin : 20px;
+	height : 30px;
+
+	
+}
+#connect{
+	
+	text-align : center;
+	box-align : center;
+	color : teal;
+	font-family : 'kristen itc';
+	width : 100px;
+}
+#ins{
+	color : teal;
+	opacity : 0.7;
+	
+}
+rgb(255,32,32)
+
+-->
+</style>
+	</head>
+<body>
+<?php
+if(isset($_POST['submit'])){
+			$username=$_POST['username'];
+			$password=$_POST['password'];
+			$repeatpassword=$_POST['repeatpassword'];
+			
+			if($username=='bouchra')&&($password=="123")&&($repeatpassword=="123"){
+					echo"is correct";
+				//if($password==$repeatpassword){
+					//$password=md5($password);
+					// Connexion � la base de donn�es
+						//try
+						//{
+							//$bdd = new PDO('mysql:host=localhost;charset=utf8', 'root', '');
+						//}
+						//catch(Exception $e)
+						//{
+								//die('Erreur : '.$e->getMessage());
+						//}
+						//$reponse = $bdd->query("INSERT INTO users VALUES('','$username','$password')");
+												
+				}
+				elseif(condition)
+				else echo"Les deux mot de passe sont differents incorrect";
+				
+			}
+			else echo"Veillez saisir tous les champs";
+			
+		}
+	
+
+
+?>
+
+
+<form methode="post" action="connexion.php">
+<p>votre pseudo</p>
+<input type="text" name="username">
+<p>votre password</p>
+<input type="password" name="password"></br></br>
+<input type="submit" value="inscrire" name="submit">
+ <a href="ACCUEIL.php" id="cnx">Home</a>
+</form>
+</body>
+</html>

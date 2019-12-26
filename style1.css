@@ -1,0 +1,66 @@
+div.master { 
+
+/* Pour définir master comme référence pour le positionnement absolu des div internes */
+position:relative; 
+
+width:600px; 
+height:580px; 
+border:2px solid gray; 
+padding:5px; 
+
+/* Pour centrer le div horizontalement */;
+margin-left:auto;
+margin-right:auto; 
+/* Fin Pour centrer le div horizontalement */
+
+background-color:#ffe4c4; 
+
+} 
+
+.com { /* Commun pour les 4 petits blocs */
+border:2px solid gray; 
+width:250px; 
+height:250px; 
+padding:4px; 
+margin:4px;                                                              
+text-align:center; 
+background-color:teal; 
+
+}
+
+div.csg{ 
+position:absolute; 
+left:20px;
+top:10px;
+
+} 
+
+div.csd{ 
+position:absolute; 
+right:20px;
+top:10px;
+
+}
+div.cig{ 
+position:absolute; 
+left:20px;
+top:310px;
+
+} 
+
+div.cid{ 
+position:absolute; 
+right:20px;
+top:310px;
+
+}
+
+body{
+top:0;
+left:0;
+}
+.commun { 
+color:yellow; 
+font-family:"Century Gothic";
+font-size:18px;
+}

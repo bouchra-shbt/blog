@@ -1,0 +1,41 @@
+body{
+font-family:verdana;
+margin-left:10px;
+margin-right:10px;
+} 
+.monbloc1{
+   float:left; 
+   width:320px; /* Largeur du bloc */
+   height:240px; /* Hauteur du bloc */
+   padding:10px;
+   margin-right:10px;
+   background-color:#6495ED;
+   border: 1px dashed gray; 
+} 
+.monbloc2{
+   float:right; 
+   width:320px; /* Largeur du bloc */
+   height:240px; /* Hauteur du bloc */
+   padding:10px;
+   margin-left:10px;
+   background-color:#6495ED;
+   border: 1px dashed gray; 
+} 
+.monbloc3{
+   float:left; 
+   width:320px; /* Largeur du bloc */
+   height:240px; /* Hauteur du bloc */
+   padding:10px;
+   margin-right:10px;
+  background-color:#6495ED;
+   border: 1px dashed gray; 
+} 
+.monbloc4{
+   float:right; 
+   width:320px; /* Largeur du bloc */
+   height:240px; /* Hauteur du bloc */
+   padding:10px;
+   margin-left:10px;
+  background-color:#6495ED;
+   border: 1px dashed gray; 
+} 
